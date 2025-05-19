@@ -22,9 +22,9 @@ const monaSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'DSLRPros Reviews - My purchase experience with an Autel Drone at DSLRPros.',
+  title: 'Decomissioned.',
   description:
-    'I found it hard to keep track of DSLRPros reviews online so I decided to create a list for my own purposes. This website also serves as a log for my own purchase experience of an Autel drone through DSLRPros.',
+    '',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
