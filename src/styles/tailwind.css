@@ -9,3 +9,24 @@
   --font-sans: var(--font-inter);
   --font-display: var(--font-mona-sans);
 }
+
+.ml-form-embedBody, .ml-form-embedBodyDefault, .row-form {
+  padding: 0 !important;
+}
+
+.ml-form-embedBodyDefault {
+  padding: 0 !important;
+}
+
+.ml-form-embedWrapper, .embedForm {
+  padding: 0 !important;
+}
+
+.ml-form-successBody, .row-success {
+  padding: 0 !important;
+  padding-top: 10px !important;
+}
+
+.ml-form-successBodyDefault {
+  padding: 0 !important;
+}

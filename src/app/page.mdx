@@ -6,52 +6,53 @@ export { Layout as default } from '@/components/Layout'
 
 ![](@/images/dslrpros-order-summary-error.png)
 
-## Big fun Autel Care plan "mix-up". {{ date: '2025-05-06T00:00Z' }}
+## Big fun Autel Care plan "mix-up". {{ date: '2025-05-18T00:00Z' }}
 
 As I started to truly fall in love with the Autel Evo II 640T despite the horrendus sales experience, I came to learn during my care plan activation that DSLRPros mis-configured my order. In the screenshot you'll notice the issue. They configured the care plan for the RTK varient yet sold me the Enterprise version. 
 
 ### <SparkleIcon /> Notes:
 
 - You guessed it, hosed yet again! Users have 48 hours post controller activation to register the care plan otherwise the plan is void. 
-- My activation was already fraught to begin with. Thankfully Autel direct has been helpful but being a middleman between an OEM and a gaggle of clowns is exhausting.
-- Do I have in my possetion a $6K uninsurable drone? Currently, that seems to be the case. Awaiting support response...
+- My activation was already fraught to begin with. Thankfully Autel direct has been helpful but being a middleman between an OEM and DSLRPros has been exhausting.
+- Do I have in my possetion a $6K uninsurable drone? Currently that seems to be the case. Awaiting support response...
 - I also realized that the configured order and summary pages (driven by Shopify) have been manually removed. Gotta get screenshots when you can folks!
 
 ---
 
-![](@/images/configuration-files.png)
+![](@/images/evo-2-enterprise-prop-guard-incompatible.png)
 
-## Project configuration files {{ date: '2023-03-17T00:00Z' }}
+## Hardware Swap Reality {{ date: '2025-05-16T00:00Z' }}
 
-I've added support for creating per-project `.commitrc` files that override your global settings for that particular project. Went with YAML for these because personally I'm sick of quoting keys in JSON all the time, or accidentally leaving in a trailing comma.
+Worked with an Autel Robotics tech (also fullfills DNerds sales as a side hustle *wink*) on the Enterprise to RTK varient swap to support prop guards. Wow, what a cluster.
 
-### <SparkleIcon /> Improvements
+### <SparkleIcon /> Notes
 
-- Added per-project `.commitrc` configuration files
-- Improved performance when working with projects with large binary files
-- Fixed a bug that could cause Commit to crash when autocommitting after deleting a recently active branch
+- Once again I had to force-feed product facts to a rep. In this case it was the fact that the Enterprise variant has larger blades. "No no no" I was told. :: very awkward dialog where I onboard the rep with Enterprise varient facts (yet again) :: "It seems the Enterprise varient does indeed have larger blades". Ok, at least we're on same page.
+- This meant that the original plan to swap to rugged RTK meant a prop swap as well otherwise the guard would not properly protect the blades given the enterprise blades are larger.
+- I was encoraged to allow a swap of my Enterprise's arms (masterful pieces of carbon fiber artwork) to the rugged, shorter polycarbonate arms with smaller props with no credit. My question? "What does a CF Enterprise arm retail for vs. the rugged polycarbonate's arm?". That question was flat out ignored. I found out myself. A single Evo II 640T V3 Enterprise carbon fiber arm retails for over $600. The rugged's arm cost is under $200 for ALL FOUR!
+- Suffice to say after all of the runaround I decided to kept the Enterprise vs let them strip it.
+---
+
+![](@/images/1-day-7-day-shipping.png)
+
+## 1-Day Shipping Upgrade = 6 Days @ DSLRPros  {{ date: '2025-05-13T00:00Z' }}
+
+After being told a whopping 5 Enterprise bundles were in stock by DSLRPros, I was confident in upgrading the *free* shipping to 1 day for $69.25. I placed the order on the 6th and recieved the unit on the 13th. 
+
+### <SparkleIcon /> Notes:
+
+- Although I brought this up during the debacle cycle(s), I was never offered a refund.
+- My goal at this point was to simply reach a common ground on Enterprise specifications. I happily ate the loss on shipping when we finally broke through to agree (based on published Autel docs) that the blades and arm housings were larger than the RTK rugged
 
 ---
 
-![](@/images/dark-mode.png)
+![](@/images/evo-2-enterprise-propeller-guards-needed.png)
 
-## Dark mode support {{ date: '2023-03-06T00:00Z' }}
+## Prop guards are needed for my use case, agreed, thanks! {{  date: '2023-05-05T00:00Z' }}
 
-I released this thing last week hoping a couple of people would say "awesome job" and make me feel good about what I'd built but instead I just got a ton of people shaming me on X for being such a horrible person for only shipping a light UI.
+After a truly delightful pre-sale conversation with DSLRPros I was confident I was on the right track and thrilled to recieve my drone. Based on my particular use-case, prop guards for my Evo II 640T Enterprise are necessary. I assumed at $6K they'd be included. Not a problem, Steven auto-added them to my quote. Sweet.
 
-### <SparkleIcon /> Improvements
+### <SparkleIcon /> Notes:
 
-- Added dark mode support
-- Improved input field responsiveness when writing a commit message in a project with a large number of changed files
-- Made keyboard shortcut for opening the Commit window customizable
-- Deleted my X account
-
----
-
-![](@/images/first-release.png)
-
-## Commit v0.1.0 {{  date: '2023-03-03T00:00Z' }}
-
-Commit is a command palette-style Git client you can pull up from anywhere with a keyboard shortcut that makes it really easy to commit your work. It uses the "last modified" timestamp of the files in all of your projects to automatically know which project you're in the middle of working on, so any time you pull up the UI it's already got the right project selected — you just have to type your commit message, hit <kbd>Cmd</kbd> + <kbd>Enter</kbd> and your changes are captured.
-
-I'd be lying if I really thought this was that useful but I was looking for an excuse to learn macOS development and here we are. It's open source at least so maybe you can find something interesting in the code even if the app itself is a total waste of hard drive space.
+- The additional blades that Steven added were also useless and incompatible with the Enterprise variant.
+- Guess when prop guards are suddently no longer needed at all? The exact moment they realized prop guards are not an option (at all) on the Enterprise version. I was literally told "You don't need them" post-sale.
