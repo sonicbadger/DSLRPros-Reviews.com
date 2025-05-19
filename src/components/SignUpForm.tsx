@@ -6,7 +6,7 @@ export function SignUpForm() {
   let id = useId()
 
   return (
-    <form className="relative isolate mt-8 flex items-center pr-1">
+    <form className="relative isolate mt-6 flex items-center pr-1">
       <label htmlFor={id} className="sr-only">
         Email address
       </label>

@@ -48,38 +48,26 @@ export function Intro() {
           <Logo className="inline-block h-8 w-auto" />
         </Link>
       </div>
-      <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
-        Open-source Git client{' '}
-        <span className="text-sky-300">for macOS minimalists</span>
-      </h1>
+      <h1 className="mt-14 font-display text-2xl font-light text-white">
+        My purchase experience of an&nbsp;<span className="text-sky-300">Autel EVO II Dual 640T Enterprise Bundle V3</span>&nbsp;
+        from <a href="http://www.dslrpros.com" target='_blank'>Enterprise UAS, LLC DBA DSLRPros.com</a>.</h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        Commit is a lightweight Git client you can open from anywhere any time
-        you’re ready to commit your work with a single keyboard shortcut. It’s
-        fast, beautiful, and completely unnecessary.
+        A lot of enlightening information has surfaced during my terrible purchase experience from DSLRPros. Follow along as I share my obersvations along with providing links to others' experiences.
       </p>
+      <p className="mt-4 text-xs/6 text-gray-300 font-bold">
+        Random Postulation: Could a well respected OEM Robotics manufacturer accidentally bless "Authorized Partner" status to multiple online entities despite those entities sharing a single human front-man? ¯\_(ツ)_/¯</p>
+      <p className="mt-4 text-xs/6 text-gray-300 font-bold">Subscribe for more random postulations:</p>
+
       <SignUpForm />
-      <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
-        <IconLink href="#" icon={BookIcon} className="flex-none">
-          Documentation
-        </IconLink>
-        <IconLink href="#" icon={GitHubIcon} className="flex-none">
-          GitHub
-        </IconLink>
-        <IconLink href="/feed.xml" icon={FeedIcon} className="flex-none">
-          RSS
-        </IconLink>
-      </div>
+
     </>
   )
 }
 
 export function IntroFooter() {
   return (
-    <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
-      Brought to you by{' '}
-      <IconLink href="#" icon={XIcon} compact>
-        Joe Davola
-      </IconLink>
+    <p className="flex items-baseline text-[0.6rem]/6 text-gray-500">
+      Brought to you by &nbsp;<a href="https://www.linkedin.com/in/mikeellan/" target='_blank'>Mike Ellan</a>.
     </p>
   )
 }
